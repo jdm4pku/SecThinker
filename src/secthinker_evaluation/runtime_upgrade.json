@@ -1,0 +1,28 @@
+{
+  "from_sources": {
+    "src/secthinker_evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/secthinker_evaluation/codeguard.py": "2ed69b207425c20124fb34896a1447b0c3ae829a56ba076dcb063a5a800afd89",
+    "src/secthinker_evaluation/core.py": "24d428e1b7653b9fe082f4cb7575e6743d3b11b5212939b9bab12be8d46841d5",
+    "src/secthinker_evaluation/evaluate.py": "4b99ff910b903ce6ab904fb253fc5bc2a438df571e36840ddca602ef512154a4",
+    "src/secthinker_evaluation/report.py": "bc63b53377d1ef7a8ee1a8cb7a3e915427101162bb5ca33e7ccdea9f0838022f",
+    "src/secthinker_evaluation/runner.py": "b9be351db90948a3b146ccc8e43e33cf33ac9b6075e7b23f3e90615a5a1c5524",
+    "src/secthinker_evaluation/sandbox.py": "be0feee8ae620cc3b932940a320570c191bebac5f104faafea407b7791057fb2",
+    "src/secthinker_evaluation/sandbox_exec.py": "d1ab3d2b36ce38d2fef0805821df31d3c945cd1a93d21a1ad1e0fa14df7baea6",
+    "src/secthinker_evaluation/unittest_recording_prefix.py": "0608ce26861c5cf649bfdddf721b7097d36d98299d32dc85836390e7a4a9b4e0",
+    "src/prompt_baselines/core.py": "cce706182f1d0c497a30631eb683579b9cc8b3049e7884ef2eee84cc3050cfac"
+  },
+  "to_sources": {
+    "src/secthinker_evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/secthinker_evaluation/codeguard.py": "9effeeb7120787f34986a79491683530b29dad61621ed298050263223d0303de",
+    "src/secthinker_evaluation/core.py": "24d428e1b7653b9fe082f4cb7575e6743d3b11b5212939b9bab12be8d46841d5",
+    "src/secthinker_evaluation/evaluate.py": "e2f33a00f05481fc832407abc94771b7e1a6b5c003ffca48da754cabe00ae442",
+    "src/secthinker_evaluation/report.py": "bc63b53377d1ef7a8ee1a8cb7a3e915427101162bb5ca33e7ccdea9f0838022f",
+    "src/secthinker_evaluation/runner.py": "da5e1378109f492b2929cffa201c6cb15815c230e262bd5b936cdf4e41711157",
+    "src/secthinker_evaluation/sandbox.py": "caaa3127d25f7d1b6019cbed99f536f7a73158de2978684965bc90fcd8aa464b",
+    "src/secthinker_evaluation/sandbox_exec.py": "d1ab3d2b36ce38d2fef0805821df31d3c945cd1a93d21a1ad1e0fa14df7baea6",
+    "src/secthinker_evaluation/unittest_recording_prefix.py": "0608ce26861c5cf649bfdddf721b7097d36d98299d32dc85836390e7a4a9b4e0",
+    "src/prompt_baselines/core.py": "cce706182f1d0c497a30631eb683579b9cc8b3049e7884ef2eee84cc3050cfac",
+    "src/secthinker_experiments/artifacts.py": "dc51445eb7b0f7854ff61df5cabff94793e70d466f2a14ad7df89ae8c676d206"
+  },
+  "reason": "Bounded retries for transient pre-execution cleanup failures, host Python portability, resume only unknown checks, detailed infrastructure traces, and per-experiment result.json. Benchmark tests, static queries, sandbox restrictions and scoring definitions remain unchanged."
+}

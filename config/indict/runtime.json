@@ -1,0 +1,19 @@
+{
+  "baseline": "INDICT",
+  "source_commit": "83655faaa833c77ceb19644415f6a57e4e735a71",
+  "status": "source_and_offline_runtime_ready",
+  "actor_model": null,
+  "critic_model": null,
+  "search_llm_model": null,
+  "endpoint": null,
+  "strategy": null,
+  "formal_experiments_enabled": false,
+  "live_tools_enabled": false,
+  "benchmark_adapter": "pending",
+  "notes": [
+    "Official tools include LLM, Yahoo, Wikipedia and unsandboxed PythonREPL.",
+    "Offline validation does not validate live search availability.",
+    "indict_llama is a generic text-tool strategy, not selection of Llama weights.",
+    "Original Python has posthoc execution; non-Python has preemptive feedback only."
+  ]
+}

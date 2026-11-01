@@ -1,0 +1,169 @@
+{
+  "repository": "https://github.com/SalesforceAIResearch/indict_code_gen",
+  "commit": "83655faaa833c77ceb19644415f6a57e4e735a71",
+  "upstream_main_verified": true,
+  "files": [
+    {
+      "path": "AI_ETHICS.md",
+      "git_blob": "b2e5ba131e26a53e14f0590951cbc84cf6b40427",
+      "sha256": "f5aa495f345174e74635871e339a50ef16064bce5f09354e5d4b0bd0bf7e6100",
+      "size": 979
+    },
+    {
+      "path": "CODEOWNERS",
+      "git_blob": "ce7a494556d131b4461378648e8979e65d551140",
+      "sha256": "95c71cc55242c447bb065cd1659acdfad619f9383a791daa8da820fe825090d8",
+      "size": 142
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "git_blob": "b4612a7bc59f0b1770675cc2857d866fe41a9a31",
+      "sha256": "c2bee6959fd1a7965d6b3721bcf6b707c4240e0e93c5586b37d38940f3201eff",
+      "size": 5158
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "git_blob": "6d97696c381343dd6256c1f1de3ddbc983861e19",
+      "sha256": "99ac4b5c633a5f70da7a7d90b9034d8a4b9cc602a39ede7b2ed9032d062cec99",
+      "size": 4969
+    },
+    {
+      "path": "LICENSE.txt",
+      "git_blob": "b2949c4234a7073c094f52afe08e60f87e6c9a0e",
+      "sha256": "f5f58eb4b77c4b1709334b97f1f04772df7e97c7863be1c0d4c639ee1a871cae",
+      "size": 11411
+    },
+    {
+      "path": "README.md",
+      "git_blob": "854a0896e59b6fbad1a938ba6f20f59067e91cac",
+      "sha256": "48c1468c55a4ebc475e72231c57dd0246d3d79c78f7e28e1f6c95de4fe199652",
+      "size": 5373
+    },
+    {
+      "path": "SECURITY.md",
+      "git_blob": "8d523f552cb7e1ed264b4ba5ee51c98b5c87a06c",
+      "sha256": "2ccdfb949231b925db097e96d47b165ecb6627f9ef1b8b4862273e9f4e4fb483",
+      "size": 407
+    },
+    {
+      "path": "agents.py",
+      "git_blob": "28c075d77c310bd38c0c5d6ce493e39362626d8c",
+      "sha256": "9191c546b86aa2361425f8ceb3a3431a469d03ffcab78af4a4cfd9b8efcc38d9",
+      "size": 19178
+    },
+    {
+      "path": "configs.py",
+      "git_blob": "280bd32d61876966ed27b4c9e349f113d62680c4",
+      "sha256": "9c5400b45825e899b17cb906454550ff720ffbab4a25a9d07f46a0b43dbaf993",
+      "size": 3068
+    },
+    {
+      "path": "data/autocomplete.json",
+      "git_blob": "29deb9015f733878ec25026179a07d41fc8316ab",
+      "sha256": "02c2e2d5ed92d79078a572f88aedb6c1a5d0d09fcc661864335aa4a7422c6fa1",
+      "size": 9143
+    },
+    {
+      "path": "data/cvs.json",
+      "git_blob": "089e0c62a1e8d20ce792711741d9153f917bd3df",
+      "sha256": "2a8b08e7747b28b63b17c1cfdcbc1bcc040d276a2fc9210881db437d6c336be6",
+      "size": 835318
+    },
+    {
+      "path": "data/instruct.json",
+      "git_blob": "493a608779eea25194bc8e1e8abe24fbdcb9e681",
+      "sha256": "7d7c6bce2c3f0131862f2b98145c3d6c553052d40063557747ab922e1f15a1d6",
+      "size": 8040
+    },
+    {
+      "path": "data/interpreter.json",
+      "git_blob": "117d80d4202bfe9a3fa36e5c382e235797d60ae4",
+      "sha256": "64dc4591fccd7db6680c46ebd3697b323c5ff7a0e923a701070d810ecb540a70",
+      "size": 3144
+    },
+    {
+      "path": "data/mitre.json",
+      "git_blob": "ac345c0655a2342e2b0d54a1a4242fdd328db920",
+      "sha256": "2e32e8a71b0c90dbf6ec4200711d0f1b29f4f5697167dfe44f06d31e555db3ea",
+      "size": 20904
+    },
+    {
+      "path": "data/prompt_injection.json",
+      "git_blob": "3396ab406da53235551a3a8d25dacf24aceb6695",
+      "sha256": "319fb4b635fcd5812403906a9c13821aaa0c58f1fce759600a06d10e90dbe6e8",
+      "size": 4964
+    },
+    {
+      "path": "images/indict_example.gif",
+      "git_blob": "53f709fa3f24247d57e6027e57acaa64ac6ea88c",
+      "sha256": "9770434f8d273c063a90e474e2687595fe2416afbd67a366ab02a2cc7ce73a90",
+      "size": 1862565
+    },
+    {
+      "path": "images/indict_method.svg",
+      "git_blob": "5c26d6b86c9f78bd66cf81f5c450c333627375b5",
+      "sha256": "fdba3fd261c826ffe715c7ec12739b07564eccc11d680ef70580b056e0a72e56",
+      "size": 598181
+    },
+    {
+      "path": "install.sh",
+      "git_blob": "88173290da2b092e64b8365178427f6de4a01780",
+      "sha256": "3fa284874aaed7978c73e0474a7381ba61ddfcbe65b5d0d67f27343da6b72c54",
+      "size": 262
+    },
+    {
+      "path": "llm.py",
+      "git_blob": "0eb8883b64b010fe0c15ea825dbe7cc2293d38c7",
+      "sha256": "fa8490e75d4497af065c0d2d9290fc98f0d742335c95791b29d894db6cf4b043",
+      "size": 4119
+    },
+    {
+      "path": "parse_arguments.py",
+      "git_blob": "5478f5f746b2fd0b26533eca2300834d684f345b",
+      "sha256": "1a9c1f6853bd9639ffd08b27313c9f75f0b55a055edbe56b01a3caf870c38cb3",
+      "size": 1113
+    },
+    {
+      "path": "prompts.py",
+      "git_blob": "e1b7ff758dee44b2a27dc70970c235a7811930fa",
+      "sha256": "bf54c2469b9abf0f4ef685b6c44fb12f03cdbcc7d2821ad1556e23cd58596b9a",
+      "size": 8041
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "384b5431d1301b144782fb69892414bd22b454f0",
+      "sha256": "b9c129facc5342f2032fd5243121d76c3efbc55ea2eaa3b80641dbb0e03fb847",
+      "size": 236
+    },
+    {
+      "path": "run.py",
+      "git_blob": "479ef411817fd553a45d1e61d0090082653a7252",
+      "sha256": "e75dff7c18b5f3831e4d5d6d145f5548da0b01a286cd28f562fdb757abfb8ab3",
+      "size": 3442
+    },
+    {
+      "path": "script.sh",
+      "git_blob": "70b3755a084c770e7d6b02ff20586aa834bf1bba",
+      "sha256": "e8207714fe34bd986f7d3964128e45064be423e23d009fba834d1b62ce20f47f",
+      "size": 762
+    },
+    {
+      "path": "tools.py",
+      "git_blob": "31240af675e18eb478bac302ad10b7661effb0be",
+      "sha256": "0ca191a1f96da19b43fe6f55c248892eba8371fd1d6f1e018c2bff5b9dae37ea",
+      "size": 4668
+    },
+    {
+      "path": "util.py",
+      "git_blob": "1540e82e12d31ad450124b9629c51a221db2cbdf",
+      "sha256": "b0edb4115729a8febe9ff847314a9ac5c7ef22efb3f8bb723bb4fa25b83a7f01",
+      "size": 3886
+    },
+    {
+      "path": "vllm.sh",
+      "git_blob": "61af5f0e6523172543e4050e1f6121df5a94de3c",
+      "sha256": "8859b4067e59779ba8016037cd3230068359d7847c7fea06be3954ea8b45c669",
+      "size": 408
+    }
+  ]
+}

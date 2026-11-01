@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-10-19T12:10:43.710422+00:00",
+  "revision": "c3ffce09269f2d7b092888efe05d070b6fcb97f5",
+  "checks_passed": true,
+  "upstream_file_checksums_passed": 4,
+  "subsets": {
+    "SecEvalBase": {
+      "tasks": 115,
+      "unique_ids": 115,
+      "normalized_cwe_count": 66,
+      "path": "data/SecEvalBase/test.jsonl"
+    },
+    "SecEvalPlus": {
+      "tasks": 140,
+      "unique_ids": 140,
+      "normalized_cwe_count": 17,
+      "path": "data/SecEvalPlus/test.jsonl"
+    }
+  },
+  "total_tasks": 255,
+  "unique_task_ids": 255,
+  "fields": [
+    "ID",
+    "Problem",
+    "Insecure Code",
+    "Secure Code",
+    "Test",
+    "Test-FP",
+    "Test-SP",
+    "Entry_Point"
+  ],
+  "official_reported_cwe_categories": 77,
+  "normalized_cwe_categories_from_task_ids": 73,
+  "dataset_code_executed": false,
+  "tests_executed": false,
+  "scope": "Download integrity, JSON parsing, required nonempty string fields, record counts, unique IDs and CWE statistics only."
+}

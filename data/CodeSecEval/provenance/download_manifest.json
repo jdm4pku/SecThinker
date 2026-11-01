@@ -1,0 +1,38 @@
+{
+  "dataset": "JasonWang1/CodeSecEval",
+  "revision": "c3ffce09269f2d7b092888efe05d070b6fcb97f5",
+  "downloaded_at_utc": "2026-10-19T07:55:40.990155+00:00",
+  "official_repository": "https://github.com/CY-SCUT-MS/CodeSecEval",
+  "dataset_url": "https://huggingface.co/datasets/JasonWang1/CodeSecEval",
+  "transport": "Official HTTPS fetched through local in-memory SSH relay; server3 direct connection reported Network is unreachable. Dataset files persisted only on server3.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6443,
+      "sha256": "960a469875566f14545c815ecffda0f04e7b5cc63664027caab0769ba4b12fde",
+      "git_blob_oid": "b43c0c455c5ffa55e2a1b73cd571a1dfd942f0ab",
+      "source_url": "https://huggingface.co/datasets/JasonWang1/CodeSecEval/resolve/c3ffce09269f2d7b092888efe05d070b6fcb97f5/README.md"
+    },
+    {
+      "path": "data/SecEvalBase/test.jsonl",
+      "bytes": 444114,
+      "sha256": "9bfb204a254d174465c1019b3f06f0dab0ad2915ee3b0f739b278f51ba1b4779",
+      "git_blob_oid": "3c986eb2087d2a2b4067257341ed4052f1ddb569",
+      "source_url": "https://huggingface.co/datasets/JasonWang1/CodeSecEval/resolve/c3ffce09269f2d7b092888efe05d070b6fcb97f5/data/SecEvalBase/test.jsonl"
+    },
+    {
+      "path": "data/SecEvalPlus/test.jsonl",
+      "bytes": 780891,
+      "sha256": "f2098b4e0d7c8ad58c2855e3de3b8f1a4cc2d8c8dfa654c93979fa8e8fc1a050",
+      "git_blob_oid": "5fb3c481f0a938f6144d0bba789a93b1209d0446",
+      "source_url": "https://huggingface.co/datasets/JasonWang1/CodeSecEval/resolve/c3ffce09269f2d7b092888efe05d070b6fcb97f5/data/SecEvalPlus/test.jsonl"
+    },
+    {
+      "path": "notebooks/Compute_SecureCode_Pass_Rates_CodeSecEval.ipynb",
+      "bytes": 30635,
+      "sha256": "e83d3d6d400984fe332ca56b18377bf29ff87d49d889c7d0e93653ce37ed7309",
+      "git_blob_oid": "a798ac81dd87fdaa29efd2de64c2a886a1354b92",
+      "source_url": "https://huggingface.co/datasets/JasonWang1/CodeSecEval/resolve/c3ffce09269f2d7b092888efe05d070b6fcb97f5/notebooks/Compute_SecureCode_Pass_Rates_CodeSecEval.ipynb"
+    }
+  ]
+}

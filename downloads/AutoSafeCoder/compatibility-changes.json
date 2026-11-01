@@ -1,0 +1,58 @@
+{
+  "source_commit": "62895d8325cffd73040fa5ced8594cb00f75d063",
+  "files": [
+    {
+      "path": "executor_agent_safe.py",
+      "source_sha256": "ef2724b3061ed18579a0b1ad01b307adc780dfeb6233247505843056fbc41871",
+      "prepared_sha256": "202838694b2fcf969fc4814acf14cddc371ba9cb118bac585a91931509c4a84a",
+      "changed": true
+    },
+    {
+      "path": "executor_static.py",
+      "source_sha256": "3d97ec4f8914441516dde3bb94445bf262abc16edd89673e401ed31e91ace1ed",
+      "prepared_sha256": "b695a618ccfff0b0c09a1227bb8c6ec6e9acdc567fc6238c16aac4974801a48a",
+      "changed": true
+    },
+    {
+      "path": "fuzz_agent.py",
+      "source_sha256": "8e1a2668054df8fa4e0b09ef03447f7c412f4963fba2e3e14e8375aefea87087",
+      "prepared_sha256": "8e1a2668054df8fa4e0b09ef03447f7c412f4963fba2e3e14e8375aefea87087",
+      "changed": false
+    },
+    {
+      "path": "main.py",
+      "source_sha256": "c64d7c6dc9a9e27f7417e4de30ca3800bf5bbf22159c9de0c09f8d9bca9d7b21",
+      "prepared_sha256": "a8da39b18275a289520c79df6a6c999094e0c9c017ed019ed1369381deab2729",
+      "changed": true
+    },
+    {
+      "path": "programmer_agent.py",
+      "source_sha256": "d0ee5a5bb9260f37a43882419d3a0ed7a05842df146be7a59666e350c92c08ec",
+      "prepared_sha256": "d0ee5a5bb9260f37a43882419d3a0ed7a05842df146be7a59666e350c92c08ec",
+      "changed": false
+    },
+    {
+      "path": "tester_fuzz_agent.py",
+      "source_sha256": "14cc5308a2b99260c888beeb642f326c74f44ca90a39f8a9a637c26eb6d9d44b",
+      "prepared_sha256": "14cc5308a2b99260c888beeb642f326c74f44ca90a39f8a9a637c26eb6d9d44b",
+      "changed": false
+    },
+    {
+      "path": "utils.py",
+      "source_sha256": "27ed922a9547ea817d2c9d3f069ba2a506787bbdb7ca22a8d63e06770f6e6da8",
+      "prepared_sha256": "6813d1eeaf1647957d6c47325a3139aee3b16ee69d3f9e5a9a4cd219416df1cd",
+      "changed": true
+    }
+  ],
+  "fixes": [
+    "Explicit client/model injection; remove default endpoint/model/key assignments",
+    "Resolve original few-shot prompts by absolute path",
+    "Use self.entry rather than ambient global entry",
+    "Pass mutator function name/code in correct order",
+    "Replay each actual failing input; preserve flat failure records; do not mark replay errors fixed",
+    "Invoke __main__ in executor and propagate target exceptions; close IPC manager; handle missing child records",
+    "Disable generated-code host execution; require future sandbox backend; trusted fixtures only for validation",
+    "Normalize Bandit result/error handling; use python -m bandit",
+    "Disable direct prepared-main benchmark launch"
+  ]
+}

@@ -1,0 +1,15 @@
+envs/
+runtime/
+output/
+runs/
+models/
+.cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+.DS_Store
+tools/table2/
+tools/prompt_eval/codeql/
+tools/prompt_eval/sonar*/
+tools/prompt_eval/zulu*/

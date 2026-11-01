@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-19T11:54:50.528300+00:00",
+  "revision": "0528ee9e527fa57b9a1c82c564beb854f1881fd5",
+  "upstream_files_verified": 524,
+  "actual_tasks_by_info_json": 103,
+  "languages": {
+    "py": 71,
+    "c": 31,
+    "cpp": 1
+  },
+  "distinct_cwe_metadata": 42,
+  "official_readme_reported_tasks": 91,
+  "official_readme_reported_cwe": 34,
+  "task_context_and_test_files_complete": true,
+  "query_path_kinds": {
+    "external_codeql_path": 85,
+    "other_or_local": 9,
+    "unset_or_null": 9
+  },
+  "has_perturbed_directory": false,
+  "executed_dataset_tests": false,
+  "installed_dependencies": false
+}

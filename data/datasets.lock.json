@@ -1,0 +1,42 @@
+{
+  "updated": "2026-10-19",
+  "workspace": "/efs-exp/wamhyppyh/run_exp2",
+  "datasets": {
+    "CodeSecEval": {
+      "path": "data/CodeSecEval",
+      "repo_id": "JasonWang1/CodeSecEval",
+      "revision": "c3ffce09269f2d7b092888efe05d070b6fcb97f5",
+      "source": "https://huggingface.co/datasets/JasonWang1/CodeSecEval",
+      "subsets": {
+        "SecEvalBase": 115,
+        "SecEvalPlus": 140
+      },
+      "total_tasks": 255,
+      "status": "downloaded_and_statically_verified",
+      "manifest": "data/CodeSecEval/provenance/download_manifest.json",
+      "validation": "data/CodeSecEval/provenance/validation.json",
+      "review_guide": "data/CodeSecEval/REVIEW_zh.md",
+      "tests_executed": false
+    },
+    "CodeGuardPlus": {
+      "name": "CodeGuard+",
+      "path": "data/CodeGuardPlus",
+      "repository": "https://github.com/CodeGuardPlus/CodeGuardPlus",
+      "revision": "0528ee9e527fa57b9a1c82c564beb854f1881fd5",
+      "actual_tasks": 103,
+      "languages": {
+        "py": 71,
+        "c": 31,
+        "cpp": 1
+      },
+      "actual_cwe_categories": 42,
+      "readme_reported_tasks": 91,
+      "readme_reported_cwe": 34,
+      "status": "downloaded_and_statically_verified",
+      "manifest": "data/CodeGuardPlus/provenance/download_manifest.json",
+      "validation": "data/CodeGuardPlus/provenance/validation.json",
+      "review_guide": "data/CodeGuardPlus/REVIEW_zh.md",
+      "tests_executed": false
+    }
+  }
+}

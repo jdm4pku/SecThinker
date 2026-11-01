@@ -1,0 +1,49 @@
+{
+  "built_at_utc": "2026-10-19T12:07:16.995058+00:00",
+  "source_revision": "c3ffce09269f2d7b092888efe05d070b6fcb97f5",
+  "records": 255,
+  "subsets": {
+    "SecEvalBase": 115,
+    "SecEvalPlus": 140
+  },
+  "source_Problem_verbatim": true,
+  "base_non_docstring_AST_unchanged": true,
+  "plus_inline_code_identifiers_preserved": true,
+  "examples_source_preserved": true,
+  "examples_display_changes": [
+    "Input/Output labels translated",
+    "One explanatory swap comment translated"
+  ],
+  "translation_method": "Chinese translation by assistant; not security requirements completion",
+  "includes_reference_implementations_or_tests": false,
+  "sha256_html": "1d95e76655db06ef34e6319c4e8c6bbe16630f9f3aee96460d0c5e5dde25c1cf",
+  "sha256_translations": "1381dd8099d5dcd50a411fa89f9049ac24c975186fbbcf710999b540c3d912af",
+  "html_path": "/efs-exp/wamhyppyh/run_exp2/data/CodeSecEval/review/CodeSecEval_255条需求_中文审阅.html",
+  "browser_verification": {
+    "tool": "agent-browser",
+    "desktop_viewport": [
+      1440,
+      1100
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "horizontal_overflow": false,
+    "browser_errors": [],
+    "passed": [
+      "all_255_embedded",
+      "Base_115_and_Plus_140_filters",
+      "id_search",
+      "empty_search_state",
+      "bilingual_toggle",
+      "review_status_filter",
+      "continuous_all_255_render",
+      "local_note_persistence",
+      "255_record_export",
+      "import_round_trip",
+      "HTML_snippets_render_as_text"
+    ],
+    "visual_check": "Desktop and mobile screenshots inspected."
+  }
+}

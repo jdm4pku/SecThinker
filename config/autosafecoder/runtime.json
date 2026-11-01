@@ -1,0 +1,19 @@
+{
+  "baseline": "AutoSafeCoder",
+  "source_commit": "62895d8325cffd73040fa5ced8594cb00f75d063",
+  "status": "source_and_offline_runtime_ready",
+  "generation_model": null,
+  "static_reviewer_model": null,
+  "test_input_model": null,
+  "endpoint": null,
+  "formal_experiments_enabled": false,
+  "static_analysis_mode": null,
+  "upstream_main_static_analysis": "LLM-based (execute_static_analysis_gpt), Bandit is a separate available function",
+  "upstream_fuzz_iterations": 120,
+  "upstream_static_repair_limit": 4,
+  "upstream_fuzz_repair_limit": 4,
+  "supported_language": "python",
+  "benchmark_adapter": "pending",
+  "isolated_execution_backend": "pending; only trusted synthetic fixtures executed in validation",
+  "compatibility_changes": "downloads/AutoSafeCoder/compatibility-changes.json"
+}

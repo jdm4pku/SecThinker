@@ -1,0 +1,121 @@
+{
+  "repository": "https://github.com/SecureAIAutonomyLab/AutoSafeCoder",
+  "commit": "62895d8325cffd73040fa5ced8594cb00f75d063",
+  "upstream_main_verified": true,
+  "files": [
+    {
+      "path": ".DS_Store",
+      "git_blob": "2c67915cf7113c7efde514195889dd6357af255c",
+      "sha256": "7b7f4342bf79b7b6ec2d6226a1d3b5581845a46a0c88ef3a8cc3f1427e50dd79",
+      "size": 6148
+    },
+    {
+      "path": "README.md",
+      "git_blob": "1ad05887e3cbeccbfea080627a91a9e76606f0a7",
+      "sha256": "1aafe894f09c470b9417acf7347a343bc8e66ef8f8f27498b7761dddbbd0e2df",
+      "size": 1284
+    },
+    {
+      "path": "assets/image.png",
+      "git_blob": "d4afe6956570500fa0b5f0cc4f2ebd8be64e755f",
+      "sha256": "1fc07a6bfe7a5b05b5d9c93b9837a79f8e1341a91243e126336d71b99a4995a4",
+      "size": 873285
+    },
+    {
+      "path": "dataset copy.jsonl",
+      "git_blob": "ee4b9b2b5613a4b9d6385e6b69869e957fc36195",
+      "sha256": "e46918698e190e481399c51330c60049ed34a38ccc2546c9a81f0c84d446335f",
+      "size": 82641
+    },
+    {
+      "path": "eval_bandit.py",
+      "git_blob": "4b5da231590fc035934e066bcae0982d4d17f537",
+      "sha256": "21e6c0d486449b0707a0d30038bd658f9479b200b1c8eaa98629ca962bf18676",
+      "size": 2301
+    },
+    {
+      "path": "executor_agent_safe.py",
+      "git_blob": "e45162f61e39284b1e90a56a306978886492225d",
+      "sha256": "ef2724b3061ed18579a0b1ad01b307adc780dfeb6233247505843056fbc41871",
+      "size": 8073
+    },
+    {
+      "path": "executor_static.py",
+      "git_blob": "b7843b01fa1928d545410073d5f490b7d9720039",
+      "sha256": "3d97ec4f8914441516dde3bb94445bf262abc16edd89673e401ed31e91ace1ed",
+      "size": 3072
+    },
+    {
+      "path": "fuzz_agent.py",
+      "git_blob": "1bd43643ce7d87ed55f5b54124c390c516eb0852",
+      "sha256": "8e1a2668054df8fa4e0b09ef03447f7c412f4963fba2e3e14e8375aefea87087",
+      "size": 354
+    },
+    {
+      "path": "main.py",
+      "git_blob": "1ce0e63a7ee755f8fb9348fd243fd5495402c9e3",
+      "sha256": "c64d7c6dc9a9e27f7417e4de30ca3800bf5bbf22159c9de0c09f8d9bca9d7b21",
+      "size": 7996
+    },
+    {
+      "path": "programmer_agent.py",
+      "git_blob": "91511d68cf714fb9f932dd0d6b53df1e00a2d507",
+      "sha256": "d0ee5a5bb9260f37a43882419d3a0ed7a05842df146be7a59666e350c92c08ec",
+      "size": 773
+    },
+    {
+      "path": "prompts_fewshot/coder_agent_prompt.txt",
+      "git_blob": "e82672cf41f14ef78db8837df19b4b56251843ec",
+      "sha256": "c0134a790b61d28397227a7f2fd71fffa08ed94d76d10c9fdc3fb0dfbd68224d",
+      "size": 2046
+    },
+    {
+      "path": "prompts_fewshot/initial_inputs_prompt.txt",
+      "git_blob": "2516e45293bd7caa1fbe9dc5b116754fbf9d86e7",
+      "sha256": "39a16c991ba35478582e5963f78835fb80a37c350f0bce19675eca230a7ce8f6",
+      "size": 1024
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "e50688d1bb57b4f8a1f99fd69469198bf2935123",
+      "sha256": "5220611025763de24b956b1a4a91a9c53dbb3a2e6e4e69e5908f1ae085690d78",
+      "size": 1308
+    },
+    {
+      "path": "results/results_human_eval_gpt4_only.json",
+      "git_blob": "9dc6a43444bd3db1ea67688970e8656598adfcb5",
+      "sha256": "b40c2698e2bdb142e885f54747a1dadc1f1f27a548f0c9f93e1dcf60e7857024",
+      "size": 115518
+    },
+    {
+      "path": "results/results_human_eval_static_fuzz.json",
+      "git_blob": "1d92a5fe05fbabef8da0d9cb57d4c691f91320f8",
+      "sha256": "1d640950da5dcd1f1acb53e8252dda98bf87e48ad4ad7c580cf37e3fc540ba43",
+      "size": 1892966
+    },
+    {
+      "path": "results/results_security_eval_gpt4.json",
+      "git_blob": "461b0b0f40aeb2678ba2f2800fe583882ee388fe",
+      "sha256": "713963b75ee337ed5363796537cf8994d1cff392dcee5a32a8e91450336ef8b1",
+      "size": 90116
+    },
+    {
+      "path": "results/results_security_eval_static_fuzz.json",
+      "git_blob": "1dddf5852b0dba6c70a3cb051573313d52eb552b",
+      "sha256": "e0c9c03daf26623b56b46ba39b98bf3db28b3e40e9432c64c48c6094edad84ed",
+      "size": 935978
+    },
+    {
+      "path": "tester_fuzz_agent.py",
+      "git_blob": "b2393472990819e007ba5c6f7452e591ee753129",
+      "sha256": "14cc5308a2b99260c888beeb642f326c74f44ca90a39f8a9a637c26eb6d9d44b",
+      "size": 679
+    },
+    {
+      "path": "utils.py",
+      "git_blob": "3994c0c2d61711b1ae1403ff2b3d3ab5d86338c8",
+      "sha256": "27ed922a9547ea817d2c9d3f069ba2a506787bbdb7ca22a8d63e06770f6e6da8",
+      "size": 10774
+    }
+  ]
+}

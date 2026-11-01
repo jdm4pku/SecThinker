@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "formal_experiments_enabled": true,
+  "methods": {
+    "autosafecoder": {
+      "models": {
+        "generation": {
+          "model": "Qwen3.8-27B",
+          "base_url": "http://127.0.0.1:18088/v1",
+          "api_key_env": null,
+          "max_tokens": 8192,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "seed": 42,
+          "disable_native_thinking": true
+        }
+      },
+      "options": {
+        "iterations": 120,
+        "static_mode": "author_llm",
+        "max_repairs": 4
+      }
+    }
+  }
+}

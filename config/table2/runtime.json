@@ -1,0 +1,65 @@
+{
+  "formal_experiments_enabled": false,
+  "schema_version": 1,
+  "methods": {
+    "indict": {
+      "models": {
+        "generation": {
+          "model": null,
+          "base_url": null,
+          "api_key_env": null,
+          "max_tokens": 8192,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "seed": 42
+        },
+        "critic": {
+          "model": null,
+          "base_url": null,
+          "api_key_env": null,
+          "max_tokens": 8192,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "seed": 42
+        },
+        "search": {
+          "model": null,
+          "base_url": null,
+          "api_key_env": null,
+          "max_tokens": 8192,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "seed": 42
+        }
+      },
+      "options": {
+        "rounds": 3,
+        "strategy": "indict_llama",
+        "live_search_enabled": false,
+        "search_sources": [
+          "llm",
+          "yahoo",
+          "wikipedia"
+        ]
+      }
+    },
+    "autosafecoder": {
+      "models": {
+        "generation": {
+          "model": null,
+          "base_url": null,
+          "api_key_env": null,
+          "max_tokens": 8192,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "seed": 42
+        }
+      },
+      "options": {
+        "iterations": 120,
+        "static_mode": "author_llm",
+        "max_repairs": 4
+      }
+    }
+  }
+}
